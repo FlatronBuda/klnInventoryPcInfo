@@ -1,0 +1,3 @@
+pyinstaller --onefile --noconsole --icon=favicon.ico main.py
+pyinstaller --onefile --noconsole --icon=favicon.ico --add-data "favicon.ico;." main.py
+python -m pip install -r requirements.txt
